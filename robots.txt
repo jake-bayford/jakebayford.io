@@ -1,0 +1,5 @@
+﻿# /robots.txt file for https://jakebayford.io/
+
+User-agent: *
+Allow: /
+Disallow: /*.pdf$
