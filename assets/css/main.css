@@ -751,7 +751,7 @@ section.footer .inner .name {
 	section.header .inner .content .wrapper .cta ul {
 		position: relative;
 		margin: 0 auto;
-		width: 168px;
+		width: 210px;
 		padding-left: 0px;
 	}
 	
@@ -1009,6 +1009,327 @@ section.footer .inner .name {
 	section.contact .content .wrapper button:hover {
 		background: #2d2e2e;
 		color: #fcba03;
+		border-color: #404242;
+		outline-color: #e0a80d;
+	}
+}
+
+/***** LIGHT THEME *****/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+body.light {
+	background: #e7e7e7;
+    color: #3f4040;
+}
+
+body.light section .outer .head-back,
+body.light section .outer .content-back {
+    background: #f2f2f2;
+}
+
+body.light section .outer .content-back {
+    background: #e7e7e7;
+}
+
+body.light section:nth-child(even) .outer .head-back {
+    background: #fdfdfd;
+}
+
+body.light section:nth-child(even) .outer .content-back {
+    background: #f2f2f2;
+}
+
+body.light section .inner .head {
+	background: #f2f2f2;
+}
+
+body.light section .inner .content {
+	background: #e7e7e7;
+}
+
+body.light section:nth-child(even) .inner .head {
+	background: #fdfdfd;
+}
+
+body.light section:nth-child(even) .inner .content {
+	background: #f2f2f2;
+}
+
+body.light p a {
+	color: #e9ac03;
+	font-weight: bold;
+}
+
+body.light #sentmodal {
+	background: #fdfdfd;
+    border: 2px solid #e9ac03;
+    color: #e9ac03;
+}
+
+body.light .highlight {
+	color: #e9ac03;
+	font-weight: bold;
+}
+
+body.light section.header .inner .head .avatar {
+	border: 3px solid #e9ac03;
+}
+
+body.light section.header .inner .content .wrapper .first {
+    color: #3f4040;
+}
+
+body.light section.header .inner .content .wrapper .last {
+    color: #e9ac03;
+}
+
+body.light section.header .inner .content .wrapper .tag {
+    color: #3f4040;
+	font-weight: 400;
+}
+
+body.light section.header .inner .content .wrapper .cta ul li a {
+    background: #e7e7e7;
+    border: 2px solid #e7e7e7;
+}
+
+body.light section.header .inner .content .wrapper .cta ul li a i {
+	color: #717273;
+}
+
+body.light section.header .inner .content .wrapper .cta ul li a.rvrz {
+	background-image: url(../img/rvrz-grey.webp);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 15px;
+}
+
+body.light section.header .inner .content .wrapper .scroll a {
+	color: #3f4040;
+}
+
+body.light section.expertise .content .wrapper .item .title {
+    color: #e9ac03;
+}
+
+body.light section.expertise .content .wrapper .item .title .heading {
+	color: #3f4040;
+}
+
+body.light section.skills .content .wrapper .item .title {
+    color: #e9ac03;
+}
+
+body.light section.skills .content .wrapper .item .title .heading {
+	color: #3f4040;
+}
+
+body.light section.skills .content .wrapper .item .bar {
+	background: #c9c9c9;
+}
+
+body.light section.skills .content .wrapper .item .bar .progress {
+	background: #e9ac03;
+}
+
+body.light section.experience .content .wrapper {
+    border-left: 3px solid #3f4040;
+}
+
+body.light section.education .content .wrapper {
+    border-left: 3px solid #3f4040;
+}
+
+body.light section.experience .content .wrapper .item .dot,
+body.light section.education .content .wrapper .item .dot {
+	background: #e9ac03;
+	box-shadow: 0 0 0 6px #3f4040;
+}
+
+body.light section.experience .content .wrapper .item .jobtitle,
+body.light section.education .content .wrapper .item .jobtitle {
+    color: #3f4040;
+}
+
+body.light section.education .content .wrapper .item:last-child .foot {
+	background: #3f4040;
+}
+
+body.light section.contact .content .wrapper input,
+body.light section.contact .content .wrapper textarea {
+    background: #e7e7e7;
+    color: #3f4040;
+    border: 2px solid #3f4040;
+	outline-color: #e9ac03;
+}
+
+body.light section.contact .content .wrapper button {
+    background: #3f4040;
+    color: #f2f2f2;
+    border: 2px solid #e7e7e7;
+	outline-color: #e0a80d;
+}
+
+body.light section.contact .scroll a {
+	color: #b0b0b0;
+}
+
+body.light section.footer {
+	border-color: #b0b0b0;
+}
+
+body.light section.footer .inner .name {
+	color: #e9ac03;
+}
+
+@media (max-width: 1024px) {
+	body.light section .inner .head {
+		background: #f2f2f2 !important;
+		border-color: #b0b0b0 !important;
+	}
+}
+
+@media (hover: hover) and (pointer: fine) {
+	body.light section.header .inner .content .wrapper .cta ul li a:active,
+	body.light section.header .inner .content .wrapper .cta ul li a:visited,
+	body.light section.header .inner .content .wrapper .cta ul li a:focus {
+		display: block;
+		text-align: center;
+		border: 2px solid;
+		width: 32px;
+		height: 32px;
+		font-size: 1rem !important;
+		line-height: 2rem !important;
+		border-radius: 4px;
+		background: #e7e7e7;
+		border: 2px solid #e7e7e7;
+		transition: all .15s linear;
+		cursor: pointer;
+	}
+
+	body.light section.header .inner .content .wrapper .cta ul li a:active i,
+	body.light section.header .inner .content .wrapper .cta ul li a:visited i,
+	body.light section.header .inner .content .wrapper .cta ul li a:focus i {
+		color: #717273;
+	}
+	
+	body.light section.header .inner .content .wrapper .cta ul li a.rvrz:active,
+	body.light section.header .inner .content .wrapper .cta ul li a.rvrz:visited,
+	body.light section.header .inner .content .wrapper .cta ul li a.rvrz:focus {
+		background-image: url(../img/rvrz-grey.webp);
+		background-position: center;
+		background-repeat: no-repeat;
+		background-size: 15px;
+	}
+	
+	body.light section.header .inner .content .wrapper .cta ul li a:hover {
+		background: #f2f2f2;
+		border-color: #717273;
+	}
+
+	body.light section.header .inner .content .wrapper .cta ul li a:hover i {
+		color: #e9ac03;
+	}
+
+	body.light section.header .inner .content .wrapper .cta ul li a.rvrz:hover {
+		background-image: url(../img/rvrz-yellow.webp);
+		background-position: center;
+		background-repeat: no-repeat;
+		background-size: 15px;
+	}
+	
+	body.light section.header .inner .content .wrapper .scroll a:active,
+	body.light section.header .inner .content .wrapper .scroll a:focus,
+	body.light section.header .inner .content .wrapper .scroll a:visited,
+	body.light section.contact .scroll a:active,
+	body.light section.contact .scroll a:focus,
+	body.light section.contact .scroll a:visited {
+		color: #b0b0b0;
+		text-decoration: none;
+		font-size: 2em;
+		line-height: 1em;
+		transition: all .15s linear;
+	}
+	
+	body.light section.header .inner .content .wrapper .scroll a:hover,
+	body.light section.contact .scroll a:hover	{
+		color: #717273;
+	}
+	
+	body.light section.experience .content .wrapper .item .company a:active,
+	body.light section.experience .content .wrapper .item .company a:focus,
+	body.light section.experience .content .wrapper .item .company a:visited,
+	body.light section.education .content .wrapper .item .company a:active,
+	body.light section.education .content .wrapper .item .company a:focus,
+	body.light section.education .content .wrapper .item .company a:visited {
+		color: inherit;
+		text-decoration: none;
+	}
+	
+	body.light section.experience .content .wrapper .item .company a:hover,
+	body.light section.education .content .wrapper .item .company a:hover {
+		color: #e0a80d;
+	}
+	
+	body.light section.contact .content .wrapper button:active,
+	body.light section.contact .content .wrapper button:focus,
+	body.light section.contact .content .wrapper button:visited {
+		width: 25%;
+		display: block;
+		background: #404242;
+		color: #979899;
+		font-size: 0.9rem;
+		font-weight: 600;
+		letter-spacing: 0.2px;
+		padding: 15px;
+		border: 2px solid #2d2e2e;
+		outline-color: #e0a80d;
+		border-radius: 5px;
+		margin-bottom: 20px;
+		transition: all .15s linear;
+		cursor: pointer;
+		text-transform: uppercase;
+	}
+	
+	body.light section.contact .content .wrapper button:hover {
+		background: #f2f2f2;
+		color: #e9ac03;
 		border-color: #404242;
 		outline-color: #e0a80d;
 	}

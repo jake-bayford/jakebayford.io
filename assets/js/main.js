@@ -3,8 +3,30 @@
 	const footerYear = document.getElementById('year');
 	footerYear.innerText = new Date().getFullYear();
 	
+	// Toggle Theme
+	const toggleButton = document.getElementById('toggletheme');
+	const avatar = document.getElementById('avatar');
+	const returnTo = document.getElementById('returnto');
+	
+	toggleButton.onclick = function() {
+		document.body.classList.toggle('light');
+		if(document.body.classList.contains('light')){
+			avatar.src = 'assets/img/me-light.webp';
+			returnTo.value = 'https://jakebayford.io/?sent=true&theme=light#contact';
+		} else {
+			avatar.src = 'assets/img/me.webp';
+			returnTo.value = 'https://jakebayford.io/?sent=true#contact';
+		}
+	}
+	
 	// Check for formsubmit.co redirect
 	const urlParams = new URLSearchParams(window.location.search);
+	
+	if(urlParams.get('theme') === 'light') {
+		document.body.classList.add('light');
+		returnTo.value = 'https://jakebayford.io/?sent=true&theme=light#contact';
+	}
+	
 	if(urlParams.get('sent') === 'true') {
 		const dom = document.getElementById('dom');
 		dom.classList.remove('smooth');
