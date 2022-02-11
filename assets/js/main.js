@@ -44,17 +44,4 @@
 	if(isMobileDevice && browserZoomLevel > 100) {
 		document.body.style.zoom = (window.innerWidth / window.outerWidth);
 	}
-
-	// Contact form handler
-	document.getElementById('contact-form').addEventListener("submit", function(e){
-		if (!grecaptcha.getResponse()) {
-			event.preventDefault();
-			grecaptcha.execute();
-		}
-	});
 })();
-
-// Google recaptcha callback handler
-onSubmit = function() {
-	document.getElementById('contact-form').submit();
-}
