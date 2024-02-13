@@ -138,7 +138,7 @@ section:not(:nth-child(1)) .inner .content .wrapper {
 }
 
 p a {
-	color: #C08261;
+	color: #271f1f;
     text-decoration: none;
     font-weight: 500;
 }
@@ -256,7 +256,7 @@ section.header .inner .content .wrapper .tag {
     font-family: Lato, "Helvetica Neue", Helvetica, Arial, sans-serif;
     font-weight: 400;
     color: #C08261;
-    font-size: 1rem;
+    font-size: 17px;
     line-height: 4em;
     padding-left: 5px;
 	white-space: nowrap;
@@ -350,10 +350,15 @@ section.intro .inner .content .wrapper {
     margin: 0;
     position: relative;
     padding: 40px 70px;
+	font-size: 16px;
 }
 
 section.intro .inner .content .wrapper p:first-child {
-	color: #FFE7E7;
+	color: #271f1f;
+}
+
+section.intro .inner .content .wrapper p {
+	color: #cbc0c0;
 }
 
 /***** EXPERTISE *****/
@@ -367,6 +372,7 @@ section.expertise .content .wrapper .item {
 section.expertise .content .wrapper .item .title {
 	font-weight: 600;
     color: #FFE7E7;
+	font-size: 17px;
 }
 
 section.expertise .content .wrapper .item .title .heading {
@@ -376,7 +382,7 @@ section.expertise .content .wrapper .item .title .heading {
 }
 
 section.expertise .content .wrapper .item p {
-	font-size: 0.9rem;
+	font-size: 16px;
     padding: 0px;
     margin: 0px 0px 20px 35px;
 	color: #B47B84;
@@ -404,12 +410,14 @@ section.skills .content .wrapper .item .title {
     color: #FFE7E7;
 	width: 100%;
 	display: block;
+	font-size: 17px;
 }
 
 section.skills .content .wrapper .item .title .heading {
-	color: #CAA6A6;
+	color: #271f1f;
     margin-left: 15px;
     text-transform: uppercase;
+	font-size: 16px;
 }
 
 section.skills .content .wrapper .item .bar {
@@ -504,9 +512,10 @@ section.education .content .wrapper .item .jobtitle {
 
 section.experience .content .wrapper .item .description,
 section.education .content .wrapper .item .description {
-	font-size: 0.9rem;
+	font-size: 16px;
     padding: 0px;
     margin-bottom: 20px;
+	color: #B47B84;
 }
 
 section.experience .content .wrapper .item:last-child .description,
@@ -614,7 +623,7 @@ section.footer .inner {
     width: auto;
     position: relative;
     text-transform: uppercase;
-    font-size: 0.7rem;
+    font-size: 13px;
     padding: 20px;
     text-align: center;
     font-weight: 600;
