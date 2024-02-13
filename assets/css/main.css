@@ -138,9 +138,9 @@ section:not(:nth-child(1)) .inner .content .wrapper {
 }
 
 p a {
-	color: #271f1f;
+	  color: #332929;
     text-decoration: none;
-    font-weight: 500;
+    font-weight: bold;
 }
 
 #sentmodal {
@@ -354,7 +354,7 @@ section.intro .inner .content .wrapper {
 }
 
 section.intro .inner .content .wrapper p:first-child {
-	color: #271f1f;
+	color: #332929;
 }
 
 section.intro .inner .content .wrapper p {
@@ -414,10 +414,10 @@ section.skills .content .wrapper .item .title {
 }
 
 section.skills .content .wrapper .item .title .heading {
-	color: #271f1f;
+	  color: #332929;
     margin-left: 15px;
     text-transform: uppercase;
-	font-size: 16px;
+	  font-size: 15px;
 }
 
 section.skills .content .wrapper .item .bar {
